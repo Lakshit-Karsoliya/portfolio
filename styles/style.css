@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+
+*{font-family: 'Sofia Sans Semi Condensed', sans-serif;}
+/* font-family: 'Dancing Script', cursive; */
+.tagLineMinor{
+    font-family: 'Dancing Script', cursive;
+    color: gold;
+}
+.sign{
+    font-family: 'Babylonica', cursive;
+    color: gold;
+    font-size: 60px;
+}
+a{
+    text-decoration: none;
+}
+
+.css-hqsvbq {display: none}
+
+/* for button */
+.button{
+    border-radius: 5px;
+    background-color:#2f343a91;
+    border: none;
+    color: aliceblue;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 40px 10px;
+}
+.button:hover{
+    background-color: gold;
+}
+span{
+    color: aliceblue;
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+    color: #1b1b1c;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+/* round img */
+.roundimg{
+    height: 200px;
+    width:200px;
+    overflow:hidden;
+    border-radius: 50%;
+    border:2px solid black;
+}
+
+#MainMenu{visibility:hidden}
+footer{visibility:hidden}
+header{visibility:hidden}
