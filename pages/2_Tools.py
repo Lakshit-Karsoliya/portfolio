@@ -53,5 +53,5 @@ for item in items:
         st.image(item[1],width=250)
     with col2:
         st.write(item[2])
-        st.markdown(f'<a href="{item[3]}" target="_self">Get👇</a>', unsafe_allow_html=True)
+        st.markdown(f'<a href="{item[3]}">Get👇</a>', unsafe_allow_html=True)
     st.write('---')
