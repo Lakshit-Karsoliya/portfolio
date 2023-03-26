@@ -7,6 +7,12 @@ with open(css_file) as f:
 st.title("Tools and Projects")
 items = [#image,description,link
     [
+        "Book Recommendation System",
+        "https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80",
+        "It's a Book recommendation system basend on Content based recommendation systems this project use streamlit as to show power of transferred learning",
+        "https://github.com/Lakshit-Karsoliya/recommendation_system/tree/main/BookRecommendationSyatem"
+    ],
+    [
         "Reverse image search(car)", 
         "https://www.competethemes.com/wp-content/uploads/2022/01/reverse-image-search-seo-tools.png",
         "This is a reverse image search tool it search the top similar image from the database that resembles the uploaded image streamlit provide wheels to this project.",
